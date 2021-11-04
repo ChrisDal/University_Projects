@@ -13,6 +13,8 @@ public class Ducky {
     private int m_estomac = 100; // 100 = plein, 0=dead
     private int m_stamina = 100; // 100 = energie , 0 no move allowed
     private int m_happiness = 100; // 100 = full, < 20 impact on stamina
+    // Desire Intentions and State
+
     private StateHero m_state ;
     private boolean reachedWater = false;
     private boolean reachedRoseau = false;
