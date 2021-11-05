@@ -23,6 +23,13 @@ public class StateCondition {
         m_activated = (m_condition == EStateCondition.NONE);
     }
 
+    public StateCondition(EStateCondition e_state, boolean active)
+    {
+        m_condition = e_state;
+        m_name = e_state.name();
+        m_activated = active;
+    }
+
     public void activate() { m_activated = true; }
     public void deactivate() { m_activated = false; }
     public void setActivation(boolean active) { m_activated = active;}

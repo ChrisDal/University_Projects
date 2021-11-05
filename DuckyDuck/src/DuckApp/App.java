@@ -42,7 +42,7 @@ public class App extends Application {
         ////Init Grid & Foodpos////
         //////////////////////////
         int nbDuck = 9;
-        int nbHunter = 3;
+        int nbHunter = 1;
         Grid g = new Grid(20,8);
 
         // instantiate food
@@ -356,7 +356,7 @@ End init cells
                             } else {
                                 DucksPNG.get(itrD).setImage(deadDuck);
                                 if(h.pos.x == duck.pos.x && h.pos.y == duck.pos.y){
-                                    System.out.println("remove iamges");
+                                    System.out.println("remove images");
                                     ducks.remove(duck);
                                     root.getChildren().remove(DucksPNG.get(itrD));
                                     DucksPNG.remove(itrD);

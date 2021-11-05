@@ -5,7 +5,11 @@ public enum EStateCondition {
     WATER_IN_FOV,
     NEXT_TO_DUCK,
     ROSEAUX_IN_FOV,
-    FOUND_WATER,
+    REACHED_WATER,
+    REACHED_ROSEAUX,
+    REACHED_FOOD,
+    RECHARGED,
+    DUCK_IN_WATER,
     NONE,               // Always valid
 
 }
